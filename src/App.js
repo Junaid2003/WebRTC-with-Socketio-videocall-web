@@ -7,17 +7,6 @@ import Room from "./routes/Room";
 
 function App() {
   return (
-    // <>
-    // <Router>
-    // <div className="App">
-    // <Routes>
-    //   <Route path="/" element={<CreateRoom>}/>;
-    //   <Route path="/room/:roomID" element={<Room>}/>;
-    // </Routes>
-    // </div>
-    // <Router/>
-
-  // <>
       <BrowserRouter>
         <div className="App">
           <Routes>
@@ -26,7 +15,6 @@ function App() {
           </Routes>
         </div>
       </BrowserRouter>
-    // </>
   );
 }
 
